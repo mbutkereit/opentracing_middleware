@@ -1,0 +1,11 @@
+{
+  "name": "drupal/opentracing_middleware",
+  "type": "drupal-module",
+  "description": "Provides a opentracing implementations for drupal.",
+  "keywords": ["Drupal", "Library"],
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {
+      "opentracing/opentracing": "1.0"
+   }
+}

@@ -1,0 +1,5 @@
+services:
+  http_middleware.opentracing:
+    class: Drupal\tracing_middleware\StackMiddleware\OpenTracing
+    tags:
+     - { name: http_middleware, priority: 4000 }
